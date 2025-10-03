@@ -13,8 +13,8 @@
     }
   },
   "scripts": {
-    "dev": "vite",
-    "build": "tsup",
+    "dev": "node init && vite",
+    "build": "node init && tsup",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit",
     "test": "vitest run",
